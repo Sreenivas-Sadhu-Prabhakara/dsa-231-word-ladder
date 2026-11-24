@@ -12,6 +12,13 @@ Unweighted shortest path = BFS; the twist is the graph is never built. Comparing
 
 **Complexity:** O(n · 26 · L) time, O(n) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
